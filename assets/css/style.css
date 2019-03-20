@@ -16,9 +16,11 @@ header {
   background: whitesmoke;
 }
 
+clear-fix 
 .img {
 
-  position: absolute;
+  display: inline;
+
 }
 h1 {
   padding: 20px 0;
@@ -31,7 +33,7 @@ h1 {
 }
 
 ul {
-  position: relative; 
+  display: block;
   float: right;
 }
 h2 {
@@ -43,8 +45,10 @@ a {
 }
 
 p {
-  text-align: relatiive;
-
+  display: inline;
+  text-align: top;
+  margin-bottom: "70px"; 
+  margin-top: "0px";
 
 }
 .container {
@@ -70,4 +74,10 @@ p {
   width: 200px;
   height: 200px;
   margin-right: 20px;
+}
+
+footer {
+
+  text-align: center;
+
 }
