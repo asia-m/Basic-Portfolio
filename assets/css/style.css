@@ -78,11 +78,10 @@ ul {
 
 li {
 float: right;
-margin-right: 50px;
+margin-right: 10px;
 width: auto;
 position: sticky;
-
-
+border-left: 1px solid #bbb;
 }
 
 
