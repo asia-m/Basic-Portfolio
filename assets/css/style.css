@@ -51,12 +51,17 @@ h1 {
   margin-bottom: 0px;
   margin-right: 0px;
   font-size: 28px;
-  color: #eee;
+  color: rgb(100, 96, 96);
   text-align: left;
-  background: #333;
+  background: white;
   overflow: auto;
+
 }
 
+h1:hover {
+  background-color: rgb(238, 210, 215);
+
+}
 ul {
   list-style-type: none;
   float: right;
@@ -70,6 +75,7 @@ li {
 float: right;
 margin-right: 50px;
 width: auto;
+position: sticky;
 
 
 }
