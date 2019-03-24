@@ -142,3 +142,11 @@ footer {
 
 
 } 
+
+.image {
+  position: absolute;
+  padding: 50px;
+  margin: 20px;
+
+
+}
